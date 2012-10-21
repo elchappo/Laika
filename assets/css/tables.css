@@ -1,0 +1,28 @@
+/* 8. =TABLES - Modified 16.10.12
+******************************************/
+
+table {
+	background:#fff;
+	border: 1px solid #e9e9e9;
+	vertical-align:top;
+	width:100%;
+}
+
+td,th {
+	padding:0.40384625em;	
+}
+
+th {
+	background:#222;
+	color:#fff;
+}
+
+tr.odd,
+tr:nth-child(odd) {
+	background: #fff; /* Enhance with jQuery for < IE8 or programatically using .odd and .even classes */
+}
+
+tr.even,
+tr:nth-child(even) {
+	background: #e9e9e9; /* Enhance with jQuery for < IE8 or programatically using .odd and .even classes */
+}

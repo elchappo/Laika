@@ -1,0 +1,63 @@
+/*
+	Description: Responsive Starter Kit - CSS
+	Name: Laika
+	Author:Andy Field @ Field Office
+	Author URI: http://fieldoffice.co.uk
+*/
+
+/*
+    CSS ORDER
+    1.	=GLOBAL RESET
+    2.	=BASE
+    3.	=HELPERS
+	4.	=TYPOGRAPHY    
+    5. 	=HEADER
+    6.	=FOOTER
+    7.	=LAYOUT
+	8.	=TABLES
+    9.	=FORMS
+    10.	=GRID
+    11.	=RESPONSIVE SETTINGS
+    12.	=CSS3 ENHANCEMENTS
+    13.	=DEVELOPMENT TESTS. NOT TO USED ON A LIVE ENVIRONMENT
+    14.	=MODULES
+    
+    COLOURS
+    
+    BLACK - TEXT: #222
+    BLUE - MAIN: #115dc5
+    RED - ALERT: #b30
+    GREY: #e9e9e9
+    GREEN - SUCCESS: #5da423
+    YELLOW - HIGHLIGHT: #ff9
+
+	MEDIA QUERIES
+	    
+    - MIN-WIDTH 92.30760em (1200)
+    - MIN-WIDTH 59.076864em - 75.307617em (768 MAX WIDTH 979)
+    - MAX WIDTH 58.999941em (767)
+    - MAX WIDTH 36.923040em (480)
+
+	CALCULATION
+	
+	n x 0.076923em
+	
+        
+*/
+
+@import url("reset.css"); 
+@import url("base.css"); /* CONFIGURABLE */
+@import url("helpers.css"); /* CONFIGURABLE */
+@import url("typography.css"); /* CONFIGURABLE */
+@import url("header.css"); /* CONFIGURABLE */
+@import url("footer.css"); /* CONFIGURABLE */
+@import url("layout.css"); /* CONFIGURABLE */
+@import url("tables.css"); /* CONFIGURABLE */
+@import url("forms.css"); /* CONFIGURABLE */
+@import url("grid.css"); /* CONFIGURABLE */
+@import url("responsive.css"); /* CONFIGURABLE */
+@import url("enhancements.css"); /* CONFIGURABLE */
+@import url("dev.css");
+@import url("modules.css");
+
+

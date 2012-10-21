@@ -1,0 +1,91 @@
+/* 13. =DEVELOPMENT TESTS - Modified 16.10.12
+******************************************/
+
+/* DESKTOP - LARGE */
+@media only screen and (min-width: 92.30760em) {
+	body::before {
+		background:rgba(0,74,128, 0.9);
+		color:#fff;	
+		content:"Hello! Desktop with a screen larger than 1200px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+
+@media only screen and (min-width: 59.076864em) and (max-width: 75.307617em) {
+	body::before {
+		background:rgba(0,114,118, 0.9);
+		color:#fff;	
+		content:"Hello! Desktop";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+ 
+/* TABLET PORTRAIT TO DESKTOP */
+@media only screen and (min-width: 59.076864em) and (max-width: 75.307617em) {
+	body::before {
+		background:rgba(0,118,163, 0.9);
+		color:#fff;	
+		content:"Hello! Desktop and screens smaller than 980px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+ 
+/* MOBILE LANDSCAPE TO TABLET PORTRAIT */
+@media only screen and (max-width: 58.999941em) {
+	body::before {
+		background:rgba(0,174,238, 0.9);
+		color:#fff;	
+		content:"Hello! Mobile landscape - screen smaller than 767px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+ 
+/* MOBILE LANDSCAPE AND DOWN */
+@media only screen and (max-width: 36.923040em) {
+	body::before {
+		background:rgba(109,207,256, 0.9);
+		color:#fff;	
+		content:"Hello! Mobile portrait - screen smaller than 480px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}

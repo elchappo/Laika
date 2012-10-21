@@ -1,0 +1,85 @@
+/* 10. =GRID - 940px/72.307620em Modified 16.10.12
+******************************************/
+
+.pad {
+	padding:0.769230em;
+}
+
+#wrapper {
+	padding:0;
+}
+
+.container {
+	max-width: 72.307620em;
+	margin: 0 auto;
+	padding:0 2%;
+	position: relative;
+	width: 96%;
+}
+
+.row {
+	margin-bottom:1.538460em;
+}
+
+.column {
+	display:inline;
+	float:left;
+	margin:0 2% 0 0;
+	min-height:1px;/* FIXES EMPTY COLUMNS COLLAPSING */
+}
+
+.one {/*60*/
+	width:6.5%;
+}
+
+.two {/*140*/
+	width:15%;
+}
+
+.three {/*220*/
+	width:23.5%;
+}
+
+.four {/*300*/
+	width:32%;
+}
+
+.five {/*380*/
+	width:40.5%;
+}
+
+.six {/*460*/
+	width:49%;
+}
+
+.seven {/*540*/
+	width:57.5%;
+}
+
+.eight {/*620*/
+	width:66%;
+}
+
+.nine {/*700*/
+	width:74.5%;
+}
+
+.ten {/*780*/
+	width:83%;
+}
+
+.eleven {/*860*/
+	width:91.5%;
+}
+
+.twelve {/*940*/
+	width:100%;
+}
+
+.column:last-child {
+	/* margin:0; IE* ISSUES AND REMOVES MARGIN FROM LAST VERSION */
+}
+
+.end {
+	margin-right:0 !important;
+}

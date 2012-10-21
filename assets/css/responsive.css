@@ -1,0 +1,18 @@
+/* 11. =RESPONSIVE -  Modified 16.10.12
+******************************************/
+
+/* DESKTOP - LARGE */
+@media only screen and (min-width: 92.30760em) {
+}
+ 
+/* TABLET PORTRAIT TO DESKTOP */
+@media only screen and (min-width: 59.076864em) and (max-width: 75.307617em) {
+}
+ 
+/* MOBILE LANDSCAPE TO TABLET PORTRAIT */
+@media only screen and (max-width: 58.999941em) {
+}
+ 
+/* MOBILE LANDSCAPE AND DOWN */
+@media only screen and (max-width: 36.923040em) {
+}
