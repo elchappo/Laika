@@ -20,7 +20,6 @@
     11.	=RESPONSIVE SETTINGS
     12.	=CSS3 ENHANCEMENTS
     13.	=DEVELOPMENT TESTS. NOT TO USED ON A LIVE ENVIRONMENT
-    14.	=MODULES
     
     COLOURS
     
@@ -57,7 +56,6 @@
 @import url("grid.css"); /* CONFIGURABLE */
 @import url("responsive.css"); /* CONFIGURABLE */
 @import url("enhancements.css"); /* CONFIGURABLE */
-@import url("dev.css");
-@import url("modules.css");
+@import url("dev.css"); /* CONFIGURABLE */
 
 
