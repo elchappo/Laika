@@ -1,0 +1,123 @@
+/* 12. =DEVELOPMENT TESTS - Modified 29.12.12
+=================================================== */
+
+@media only screen and (min-width: 1px) {
+  	/* 1 =================================================== */
+	body::before {
+		background:rgba(248,175,0, 0.9);
+		color:#fff;	
+		content:"Hello! This is the default mobile view";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+  	/* 480 =================================================== */
+	body::before {
+		background:rgba(141,198,63, 0.9);
+		color:#fff;	
+		content:"Hello! Screen has a min-width of 480px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+@media only screen and (min-width: 600px) {
+  	/* 600 =================================================== */
+	body::before {
+		background:rgba(0,169,157, 0.9);
+		color:#fff;	
+		content:"Hello! Screen has a min-width of 600px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+@media only screen and (min-width: 768px) {
+  	/* 768 =================================================== */
+	body::before {
+		background:rgba(0,84,166, 0.9);
+		color:#fff;	
+		content:"Hello! Screen has a min-width of 768px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+@media only screen and (min-width: 992px) {
+  	/* 992 =================================================== */
+	body::before {
+		background:rgba(146,39,143, 0.9);
+		color:#fff;	
+		content:"Hello! Screen has a min-width of 992px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+@media only screen and (min-width: 1382px) {
+	/* 1382 =================================================== */
+	body::before {
+		background:rgba(237,20,91, 0.9);
+		color:#fff;	
+		content:"Hello! Screen has a min-width of 1382px";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	/* 2x =================================================== */
+	body::before {
+		background:rgba(242,101,34, 0.9);
+		color:#fff;	
+		content:"Hello! I'm guessing that you're viewing this on a retina device";
+		display:block;
+		font-weight:700;
+		left:0;
+		padding:4px 0;
+		position:absolute;
+		right:0;
+		text-align:center;
+		top:0;
+		z-index:100;
+	}
+}
