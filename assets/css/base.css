@@ -63,9 +63,10 @@ legend {
 
 nav ul,
 nav li { 
-    margin:0; 
     list-style:none; 
     list-style-image:none;
+    margin:0; 
+    padding:0;
 }
 
 em {
